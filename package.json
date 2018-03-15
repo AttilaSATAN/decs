@@ -1,0 +1,30 @@
+{
+  "name": "decs",
+  "version": "1.0.0",
+  "description": "An AWS Elastic Container Service application for benchmark and tinkering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest tests --notify --config=jest-config.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AttilaSATAN/decs.git"
+  },
+  "keywords": [
+    "aws",
+    "ecs",
+    "node"
+  ],
+  "author": "Attila Satan <attila.satan@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/AttilaSATAN/decs/issues"
+  },
+  "homepage": "https://github.com/AttilaSATAN/decs#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  },
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}
